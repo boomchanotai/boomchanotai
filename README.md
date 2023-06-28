@@ -1,6 +1,9 @@
 # Hey! Welcome to my profile! 👨‍💻
 
 I'm BoomChanotai (aka. centos)
+📚 Chulalongkorn University, Faculty of Engineering
+💻 Frontend & Backend Developer
+🎵 Guitar, Piano, Bass
 
 ### My Skills
 
