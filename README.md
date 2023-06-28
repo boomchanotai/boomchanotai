@@ -8,6 +8,12 @@ I'm BoomChanotai (aka. centos)
 
 🎵 Guitar, Piano, Bass
 
+### My Experiences
+
+- [x] [Internship at Vidyasirimedhi Institute of Science and Technology (VISTEC) as Frontend Developer](https://vistec.ist/)
+- [x] [Internship at StartDee.com as Software Engineer](https://startdee.com/)
+
+
 ### My Skills
 
 - General Skills
