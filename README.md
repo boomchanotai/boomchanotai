@@ -2,6 +2,17 @@
 
 I'm BoomChanotai (aka. centos)
 
-- My Skills
+### My Skills
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,php,react,vue,nextjs,nuxtjs,nodejs,nestjs,prisma)](https://www.boomchanotai.com)
+- General Skills
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,php,py,java,figma)](https://www.boomchanotai.com)
+
+- Frontend Development Skills
+
+[![Frontend](https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,tailwind,vercel)](https://www.boomchanotai.com)
+
+
+- Backend Development Skills
+
+[![Backend](https://skillicons.dev/icons?i=nodejs,nestjs,prisma,python,django,mongodb,postgres,postman)](https://www.boomchanotai.com)
