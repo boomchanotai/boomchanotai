@@ -32,7 +32,7 @@ export default component$(() => {
   return (
     <div class="relative h-[90vh] md:h-[70vh] bg-gray-900 dark:bg-primary-dark transition-colors duration-150">
       <Image
-        src="/background-1.jpeg"
+        src="/images/background.webp"
         layout="constrained"
         class="h-[90vh] md:h-[70vh] aspect-[28/9] opacity-20 object-cover object-top"
       />
@@ -71,7 +71,7 @@ export default component$(() => {
 
         <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-20 w-full md:w-auto">
           <Image
-            src="/boom-1.png"
+            src="/images/boom.webp"
             layout="constrained"
             class="w-full md:w-auto lg:h-[70vh] aspect-[3/4] object-cover object-bottom"
           />
