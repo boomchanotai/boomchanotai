@@ -21,7 +21,7 @@ export default component$(() => {
     <Container class="py-8 space-y-6">
       <h2 class="text-2xl font-bold">My Education</h2>
       {education.map(({ school, level, major, year }) => (
-        <div class="flex flex-row gap-8 justify-between items-start px-4">
+        <div class="flex flex-col-reverse md:flex-row gap-0 md:gap-8 justify-between items-start px-4">
           <div>
             <h3 class="text-lg font-semibold dark:text-accent-red transition-colors duration-150">
               {school}

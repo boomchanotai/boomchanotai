@@ -29,7 +29,7 @@ export default component$(({ theme, toggleTheme }: THeaderProps) => {
       <Container class="py-8 flex flex-row justify-between items-center">
         <h1 class="font-bold text-2xl">Centosdev</h1>
         <div>
-          <ul class="flex flex-row items-center space-x-4">
+          <ul class="hidden md:flex flex-row items-center space-x-4">
             {menus.map(({ title, href }) => (
               <Link href={href} class="cursor-pointer">
                 <li class="relative py-1 px-4 after:content-[''] after:absolute after:top-full after:left-0 after:w-full after:h-0.5 after:bg-black after:dark:bg-white after:transform after:origin-left after:scale-x-0 after:hover:scale-x-100 after:transition-all after:duration-500 after:ease-in-out">
