@@ -36,4 +36,8 @@ I'm BoomChanotai (aka. centos)
 
 - Backend Development Skills
 
+<<<<<<< HEAD
 [![Backend](https://skillicons.dev/icons?i=nodejs,nestjs,prisma,python,django,mongodb,postgres,postman)](https://www.boomchanotai.com)
+=======
+[![Backend](https://skillicons.dev/icons?i=nodejs,nestjs,prisma,python,django,mongodb,postgres,postman)](https://www.boomchanotai.com)
+>>>>>>> 02138c6 (feat: website)

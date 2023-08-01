@@ -1,11 +1,14 @@
-import { component$, Slot, useStyles$ } from "@builder.io/qwik";
+import {
+  component$,
+  Slot,
+  useSignal,
+  $,
+  useVisibleTask$,
+} from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
 import type { RequestHandler } from "@builder.io/qwik-city";
-
-import Header from "~/components/starter/header/header";
-import Footer from "~/components/starter/footer/footer";
-
-import styles from "./styles.css?inline";
+import { twMerge } from "tailwind-merge";
+import Header from "~/components/Header";
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   // Control caching for this request for best performance and to reduce hosting costs:
@@ -25,14 +28,30 @@ export const useServerTimeLoader = routeLoader$(() => {
 });
 
 export default component$(() => {
-  useStyles$(styles);
+  const theme = useSignal<"dark" | "light">("dark");
+
+  useVisibleTask$(() => {
+    const themeFromStorage = localStorage.getItem("theme");
+    if (!themeFromStorage) {
+      localStorage.setItem("theme", theme.value);
+    } else {
+      theme.value = themeFromStorage as "dark" | "light";
+    }
+  });
+
+  const toggleTheme = $(() => {
+    theme.value = theme.value === "dark" ? "light" : "dark";
+    localStorage.setItem("theme", theme.value);
+  });
+
   return (
-    <>
-      <Header />
-      <main>
-        <Slot />
-      </main>
-      <Footer />
-    </>
+    <div class={twMerge(theme.value)}>
+      <div class="bg-primary-light dark:bg-primary-dark text-black dark:text-white min-h-screen transition-colors duration-150">
+        <Header theme={theme.value} toggleTheme={toggleTheme} />
+        <main>
+          <Slot />
+        </main>
+      </div>
+    </div>
   );
 });
