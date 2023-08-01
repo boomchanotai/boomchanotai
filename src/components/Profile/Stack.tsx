@@ -49,7 +49,12 @@ export default component$(() => {
       <div class="grid grid-cols-2 lg:flex flex-wrap gap-8">
         {stacks.map(({ title, image }) => (
           <div class="py-1 px-4 flex flex-row gap-4">
-            <Image src={image} layout="constrained" class="w-6 h-6" />
+            <Image
+              src={image}
+              layout="constrained"
+              class="w-6 h-6"
+              alt={title}
+            />
             <p>{title}</p>
           </div>
         ))}

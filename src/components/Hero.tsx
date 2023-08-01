@@ -35,6 +35,7 @@ export default component$(() => {
         src="/images/background.webp"
         layout="constrained"
         class="h-[90vh] md:h-[70vh] aspect-[28/9] opacity-20 object-cover object-top"
+        alt="background"
       />
       <Container class="text-white">
         <div class="pt-8 md:pt-0 px-8 md:px-0 absolute top-0 left-0 md:left-auto md:top-1/2 transform md:-translate-y-1/2 md:w-1/2 space-y-8 md:space-y-16">
@@ -74,6 +75,7 @@ export default component$(() => {
             src="/images/boom.webp"
             layout="constrained"
             class="w-full md:w-auto lg:h-[70vh] aspect-[3/4] object-cover object-bottom"
+            alt="boomchanotai"
           />
         </div>
       </Container>

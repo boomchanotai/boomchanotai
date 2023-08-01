@@ -70,6 +70,7 @@ export default component$(() => {
                     src={project.image}
                     layout="constrained"
                     class="w-full aspect-[3/4] shadow-lg"
+                    alt={project.title}
                   />
                 </div>
               </div>
