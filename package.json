@@ -36,11 +36,13 @@
     "typescript": "5.1.6",
     "undici": "5.22.1",
     "vite": "4.4.0",
+    "vite-plugin-markdown": "^2.1.0",
     "vite-tsconfig-paths": "4.2.0"
   },
   "dependencies": {
     "@qwikest/icons": "^0.0.8",
     "@unpic/qwik": "^0.0.24",
+    "gray-matter": "^4.0.3",
     "tailwind-merge": "^1.14.0",
     "tailwind-variants": "^0.1.13"
   }
