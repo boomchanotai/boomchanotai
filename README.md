@@ -8,6 +8,7 @@ I'm BoomChanotai (aka. centos)
 
 ### My Experiences
 
+- 2025 Software Engineer (Intern) @ [Agoda Services Co., Ltd.](https://agoda.com/)
 - 2024 Software Engineer (Intern) @ [Cleverse Corporation Co., Ltd.](https://cleverse.com/)
 - 2023 Frontend Developer (Part-time) @ [Gamlytics](https://www.linkedin.com/company/gamlytics/)
 - 2022 Software Engineer (Intern) @ [StartDee.com](https://startdee.com/)
@@ -15,6 +16,7 @@ I'm BoomChanotai (aka. centos)
 
 ### My Projects
 
+- 🏢 Chalawan3D - Online 3D printing service (2025) - [Website](https://www.chalawan3d.com)
 - 🎊 GearFestival | Find your cocktail ! (2023) - [Website](https://www.gearfestival2024.com)
 - 🧪 Stereochemistry (2021) - [Website](https://storehouse.chemcu.org/stereochemistry/)
 - 💻 EGFRNet (2020) - [Website](https://ligegfr.vistec.ist/)
